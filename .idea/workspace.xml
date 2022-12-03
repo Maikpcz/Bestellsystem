@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f50ccf6-be1e-4b7c-9242-1a092295de03" name="Changes" comment="Bestellsystem" />
+    <list default="true" id="8f50ccf6-be1e-4b7c-9242-1a092295de03" name="Changes" comment="Bestellsystem">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/OrderRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/neue/Fische/OrderRepoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,13 +47,97 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.neue.Fische" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OrderRepoTest.getID">
+    <configuration name="OrderRepoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bestellsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neue.Fische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neue.Fische" />
+      <option name="MAIN_CLASS_NAME" value="de.neue.Fische.OrderRepoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderRepoTest.emptyArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bestellsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neue.Fische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neue.Fische" />
+      <option name="MAIN_CLASS_NAME" value="de.neue.Fische.OrderRepoTest" />
+      <option name="METHOD_NAME" value="emptyArrayList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderRepoTest.getID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bestellsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neue.Fische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neue.Fische" />
+      <option name="MAIN_CLASS_NAME" value="de.neue.Fische.OrderRepoTest" />
+      <option name="METHOD_NAME" value="getID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderRepoTest.getProductName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bestellsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neue.Fische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neue.Fische" />
+      <option name="MAIN_CLASS_NAME" value="de.neue.Fische.OrderRepoTest" />
+      <option name="METHOD_NAME" value="getProductName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderRepoTest.getID" />
+        <item itemvalue="JUnit.OrderRepoTest" />
+        <item itemvalue="JUnit.OrderRepoTest.getProductName" />
+        <item itemvalue="JUnit.OrderRepoTest.emptyArrayList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669971781617</updated>
-      <workItem from="1669971783108" duration="302000" />
+      <workItem from="1669971783108" duration="35071000" />
     </task>
     <task id="LOCAL-00001" summary="Bestellsystem">
       <created>1669971986382</created>
@@ -50,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669971986382</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bestellsystem">
+      <created>1669972269331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669972269331</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bestellsystem">
+      <created>1669972289547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669972289547</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
