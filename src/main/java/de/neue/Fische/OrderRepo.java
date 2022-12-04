@@ -1,41 +1,80 @@
 package de.neue.Fische;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
 
 public class OrderRepo {
     // Meine Orderliste
-    private HashMap<String,Order> ordersList;
+    HashMap<Integer,Order> ordersList = new HashMap<>();
+
+
+
+
+
 
     //Alle Bestellungen ausgeben
-    public HashMap<String, Order> orderlist (){
-        return  ordersList;
+    public HashMap<Integer, Order> orderlist (){
+        return ordersList;
     }
 
 
     //Einzelne Bestellungen ausgeben anhand der id
-    public HashMap<String, Order> newOrder(String Id){
-        if(ordersList.containsKey(Id)) System.out.println(ordersList.get(Id));
+    public Order findOrderByID(int Id){
+        if(ordersList.containsKey(Id))
+            return ordersList.get(Id);
         else throw new IllegalArgumentException("Order is not exist");
-        return null;
 
+
+    }
+    public Order getOrder(Integer orderKey){
+        return ordersList.get(orderKey);
     }
 
 
     //Neues Product anlegen und bestellen
-    public Order add(HashMap<String, Product> newProductOrder){
+    public Order addNewOrderAndOrderIt(HashMap<Integer, Product> newProduct){
         if (ordersList == null){
             ordersList = new HashMap<>();
         }
         String id = String.valueOf(ordersList.size());
-        return new Order(id, newProductOrder );
+        return new Order(Integer.parseInt(id),newProduct );
 
     }
 
 
-
-
-
+    public OrderRepo() {
+        this.ordersList = ordersList;
     }
+
+    public HashMap<Integer, Order> getOrdersList() {
+        return ordersList;
+    }
+
+    public void setOrdersList(HashMap<Integer, Order> ordersList) {
+        this.ordersList = ordersList;
+    }
+
+    @Override
+    public String toString() {
+        return "OrderRepo{" +
+                "ordersList=" + ordersList +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        OrderRepo orderRepo = (OrderRepo) o;
+        return Objects.equals(ordersList, orderRepo.ordersList);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(ordersList);
+    }
+}
 
 
 

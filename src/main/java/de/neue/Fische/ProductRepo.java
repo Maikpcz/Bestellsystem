@@ -5,26 +5,40 @@ import java.util.HashMap;
 
 public class ProductRepo {
 
-    //Meine RepoListe
-    public HashMap<String,Product> productList;
+    public HashMap<Integer,Product> productList;
 
 
 
     //Abfrage der Productliste
-    public HashMap<String,Product> list() {
-        return productList;
+    public String listProducts() {
+        return productList.toString();
     }
 
 
     //Suche Product mit Bestimmter Id und lasse die Austragen.
     // Wenn nicht vorhanden dann Exception
-      public HashMap<String, Product> get(String id) {
-        if(productList.containsKey(id)) System.out.println(productList.get(id));
-        else throw new IllegalArgumentException("Product is not available");
-      return get(id);
-    }
-//constructor
-    public ProductRepo(HashMap<String, Product> productList) {
+      public Product get(Integer id) {
+        if(productList.containsKey(id)){
+            return productList.get(id);}
+          throw new IllegalArgumentException("Product is not available");}
+
+    public ProductRepo(HashMap<Integer, Product> productList) {
         this.productList = productList;
     }
+
+    public HashMap<Integer, Product> getProductList() {
+        return productList;
+    }
+
+    public void setProductList(HashMap<Integer, Product> productList) {
+        this.productList = productList;
+    }
+
+    @Override
+    public String toString() {
+        return "ProductRepo{" +
+                "productList=" + productList +
+                '}';
+    }
 }
+//constructor

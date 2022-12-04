@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f50ccf6-be1e-4b7c-9242-1a092295de03" name="Changes" comment="Bestellsystem">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/OrderRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/neue/Fische/OrderRepoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neue/Fische/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neue/Fische/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neue/Fische/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neue/Fische/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/neue/Fische/OrderRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/neue/Fische/OrderRepoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,7 +50,10 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -65,7 +64,7 @@
       <recent name="de.neue.Fische" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderRepoTest.getID">
+  <component name="RunManager" selected="JUnit.OrderRepoTest.FindOrderByID">
     <configuration name="OrderRepoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bestellsystem" />
       <extension name="coverage">
@@ -81,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRepoTest.emptyArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderRepoTest.FindOrderByID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bestellsystem" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +90,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="de.neue.Fische" />
       <option name="MAIN_CLASS_NAME" value="de.neue.Fische.OrderRepoTest" />
-      <option name="METHOD_NAME" value="emptyArrayList" />
+      <option name="METHOD_NAME" value="FindOrderByID" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRepoTest.getID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderRepoTest.ListAllOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bestellsystem" />
       <extension name="coverage">
         <pattern>
@@ -107,13 +106,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="de.neue.Fische" />
       <option name="MAIN_CLASS_NAME" value="de.neue.Fische.OrderRepoTest" />
-      <option name="METHOD_NAME" value="getID" />
+      <option name="METHOD_NAME" value="ListAllOrders" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRepoTest.getProductName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bestellsystem" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +121,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="de.neue.Fische" />
-      <option name="MAIN_CLASS_NAME" value="de.neue.Fische.OrderRepoTest" />
-      <option name="METHOD_NAME" value="getProductName" />
+      <option name="MAIN_CLASS_NAME" value="de.neue.Fische.ProductRepoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepoTest.listProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bestellsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neue.Fische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neue.Fische" />
+      <option name="MAIN_CLASS_NAME" value="de.neue.Fische.ProductRepoTest" />
+      <option name="METHOD_NAME" value="listProducts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderRepoTest.getID" />
+        <item itemvalue="JUnit.OrderRepoTest.FindOrderByID" />
+        <item itemvalue="JUnit.OrderRepoTest.ListAllOrders" />
+        <item itemvalue="JUnit.ProductRepoTest" />
+        <item itemvalue="JUnit.ProductRepoTest.listProducts" />
         <item itemvalue="JUnit.OrderRepoTest" />
-        <item itemvalue="JUnit.OrderRepoTest.getProductName" />
-        <item itemvalue="JUnit.OrderRepoTest.emptyArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669971781617</updated>
-      <workItem from="1669971783108" duration="35071000" />
+      <workItem from="1669971783108" duration="55621000" />
     </task>
     <task id="LOCAL-00001" summary="Bestellsystem">
       <created>1669971986382</created>
@@ -169,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669972289547</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bestellsystem">
+      <created>1670075275373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670075275373</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

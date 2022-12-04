@@ -1,5 +1,7 @@
 package de.neue.Fische;
 
+import java.util.HashMap;
+
 public class Product {
     private int id;
     private String name;
@@ -11,6 +13,11 @@ public class Product {
 
     public Product() {
     }
+
+    public Product(int id, HashMap<String, Product> produt) {
+
+    }
+
 
     public int getId() {
         return id;
