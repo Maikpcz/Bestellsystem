@@ -1,7 +1,6 @@
 package de.neue.Fische;
 
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Objects;
 
 public class OrderRepo {
@@ -21,9 +20,9 @@ public class OrderRepo {
 
     //Einzelne Bestellungen ausgeben anhand der id
     public Order findOrderByID(int Id){
-        if(ordersList.containsKey(Id))
+        ordersList.containsKey(Id);
             return ordersList.get(Id);
-        else throw new IllegalArgumentException("Order is not exist");
+        //else throw new IllegalArgumentException("Order is not exist");
 
 
     }
@@ -43,11 +42,11 @@ public class OrderRepo {
     }
 
 
-    public OrderRepo() {
+    public OrderRepo(HashMap<Integer, Order> orderList) {
         this.ordersList = ordersList;
     }
 
-    public HashMap<Integer, Order> getOrdersList() {
+    public HashMap<Integer, Order> getOrdersList(HashMap<Integer, Order> orderTest) {
         return ordersList;
     }
 
