@@ -10,8 +10,8 @@ public class ProductRepo {
 
 
     //Abfrage der Productliste
-    public String listProducts() {
-        return productList.toString();
+    public HashMap<Integer,Product> listProducts() {
+        return productList;
     }
 
 
